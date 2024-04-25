@@ -1,0 +1,35 @@
+line test
+
+I   refs:      228,787,178
+I1  misses:          2,131
+LLi misses:          2,016
+I1  miss rate:        0.00%
+LLi miss rate:        0.00%
+
+D   refs:      126,476,870  (85,124,523 rd   + 41,352,347 wr)
+D1  misses:        143,719  (    76,463 rd   +     67,256 wr)
+LLd misses:         71,804  (     8,352 rd   +     63,452 wr)
+D1  miss rate:         0.1% (       0.1%     +        0.2%  )
+LLd miss rate:         0.1% (       0.0%     +        0.2%  )
+
+LL refs:           145,846  (   77,390 rd    +     68,456 wr)
+LL misses:          73,754  (    10,302 rd   +     63,452 wr)
+LL miss rate:          0.0% (       0.0%     +        0.1%  )
+
+column test
+
+I   refs:      228,787,178
+I1  misses:          2,133
+LLi misses:          2,019
+I1  miss rate:        0.00%
+LLi miss rate:        0.00%
+
+D   refs:      126,476,870  (85,124,523 rd   + 41,352,347 wr)
+D1  misses:      1,091,814  ( 1,019,166 rd   +     66,568 wr)
+LLd misses:         72,353  (     8,401 rd   +     63,952 wr)
+D1  miss rate:         1.0% (       1.3%     +        0.2%  )
+LLd miss rate:         0.1% (       0.0%     +        0.2%  )
+
+LL refs:         1,088,025  ( 1,021,249 rd   +     66,776 wr)
+LL misses:          74,459  (    10,507 rd   +     63,952 wr)
+LL miss rate:          0.0% (       0.0%     +        0.1%  )
